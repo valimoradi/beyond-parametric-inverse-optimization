@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or the methods it implements, please cite the paper below."
+title: "Beyond Parametric Inverse Optimization: code and results"
+authors:
+  - family-names: Valimoradi
+    given-names: Reza
+  - family-names: Li
+    given-names: Jonathan
+license: MIT
+repository-code: "https://github.com/valimoradi/beyond-parametric-inverse-optimization"
+preferred-citation:
+  type: article
+  title: "Beyond Parametric Inverse Optimization"
+  authors:
+    - family-names: Valimoradi
+      given-names: Reza
+    - family-names: Li
+      given-names: Jonathan
+  year: 2026
