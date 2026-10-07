@@ -64,9 +64,9 @@ python make_figure6.py
 python make_table3.py
 ```
 
-Steps 5–6 run in minutes. Steps 3–4 are long and memory-intensive: the recovery takes several
-hours per cohort and tens of GB of RAM. A prediction takes 0.3–3.6 h per patient at one MOSEK thread, with
-peak memory up to about 46 GB for the largest patient. Figures 5–6 and Table 3 can be rebuilt
+Steps 5–6 run in minutes. Steps 3–4 are long and memory-intensive: the recovery takes about
+2–10 h per cohort with MOSEK's default thread count. A prediction takes 0.3–4.0 h per patient at one
+MOSEK thread. Figures 5–6 and Table 3 can be rebuilt
 from the shipped results without steps 1–5. Figure 6 and Table 3 also need
 `results/all_patients/forward_cache_all.pkl` (Figure 6, for the test patients' structures) and
 `forward_cache_nested_N3.pkl` (Table 3, anchors column).
